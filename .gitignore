@@ -1,0 +1,16 @@
+# CMake
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Binaries
+dbf2parquet
+dbc2dbf
+*.exe
+
+# Editor/OS
+.vscode/
+.DS_Store
