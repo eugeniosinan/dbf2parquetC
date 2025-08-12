@@ -29,7 +29,11 @@ chmod +x run.sh
 ```
 
 ### Windows (cmd)
+Descompacte o arquivo [windows64](https://github.com/eugeniosinan/dbf2parquetC/releases/download/v1.0.0/dbf2parquet_x64.zip)
+Acesse a pasta pelo terminal(cmd) do Windows
 ```cmd
+# Acesse a pasta
+cd dbf2parquet_x64\dist
 dbf2parquet.exe --input arquivo.dbf --output arquivo.parquet
 ```
 
