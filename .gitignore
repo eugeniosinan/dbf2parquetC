@@ -14,3 +14,11 @@ dbc2dbf
 # Editor/OS
 .vscode/
 .DS_Store
+
+
+# Pastas
+.lh/
+CMakeLists_bkp.txt
+LICENSE
+dbf2parquet_portable.tar.gz
+dbf2parquet_portable/
