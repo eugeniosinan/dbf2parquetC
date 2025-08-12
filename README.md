@@ -48,3 +48,8 @@ As instruções detalhadas para Linux e Windows estão em:
 - **Arrow-GLib / Parquet-GLib** — Apache 2.0  
 - **Shapelib** — MIT-like  
 - **blast.c / blast.h (Mark Adler)** — permissiva
+
+
+## Downloads
+
+Baixe o binário para o seu sistema na [página de Releases](https://github.com/eugeniosinan/dbf2parquetC/releases).
