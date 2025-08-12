@@ -18,19 +18,25 @@ Leitura de DBF via **Shapelib**. Para `.dbc` (DBF compactado Visual FoxPro), o p
 
 ## Uso rápido (binário pronto)
 
-Baixe o binário para o seu sistema na [página de Releases](../../releases):
+Baixe o pacote **portável** para o seu sistema na [página de Releases](../../releases) e extraia-o.
 
+### Linux
 ```bash
-# Linux
-./dbf2parquet --input arquivo.dbf --output arquivo.parquet
+# Dar permissão de execução no script de inicialização
+chmod +x run.sh
+# Executar conversão
+./run.sh --input arquivo.dbf --output arquivo.parquet
+```
 
-# Windows (cmd)
+### Windows (cmd)
+```cmd
 dbf2parquet.exe --input arquivo.dbf --output arquivo.parquet
 ```
 
 Para ver a ajuda:
 ```bash
-dbf2parquet --help
+./run.sh --help   # Linux
+dbf2parquet.exe --help   # Windows
 ```
 
 ---
@@ -53,7 +59,7 @@ Use `--encoding-strict` para abortar a conversão no primeiro byte inválido.
 
 ## Compilação
 
-As instruções detalhadas para Linux e Windows estão em:
+As instruções detalhadas para compilar a partir do código-fonte estão em:
 [build_instructions.md](build_instructions.md)
 
 ---
@@ -69,4 +75,4 @@ As instruções detalhadas para Linux e Windows estão em:
 
 ## Downloads
 
-Baixe o binário para o seu sistema na [página de Releases](https://github.com/eugeniosinan/dbf2parquetC/releases).
+Baixe o pacote **portable** para Linux e os binários(Linux e Windows) na [página de Releases](https://github.com/eugeniosinan/dbf2parquetC/releases).
