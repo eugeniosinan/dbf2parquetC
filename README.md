@@ -35,6 +35,22 @@ dbf2parquet --help
 
 ---
 
+## Encodings compatíveis
+
+A opção `--encoding` aceita os seguintes valores:
+
+- `auto` *(padrão)* — detecta automaticamente com base no cabeçalho DBF ou assume cp1252.
+- `cp1252` — Windows-1252 (Latin-1 modificado, usado no Brasil/Portugal).
+- `cp850` — OEM Latin-1 (DOS).
+- `cp437` — OEM US (DOS original).
+- `cp1250` — Windows-1250 (Europa Central).
+- `cp1251` — Windows-1251 (Cirílico).
+- `utf-8` — já em UTF-8 (sem conversão).
+
+Use `--encoding-strict` para abortar a conversão no primeiro byte inválido.
+
+---
+
 ## Compilação
 
 As instruções detalhadas para Linux e Windows estão em:
@@ -49,6 +65,7 @@ As instruções detalhadas para Linux e Windows estão em:
 - **Shapelib** — MIT-like  
 - **blast.c / blast.h (Mark Adler)** — permissiva
 
+---
 
 ## Downloads
 
